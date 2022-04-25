@@ -1,0 +1,12 @@
+server:
+  port: ${PORT:50007}
+
+logging:
+  level:
+    root: INFO
+
+pathToClassify: ${PATH_TO_CLASSIFY:C:/temp/}
+pathToModel: ${PATH_TO_MODEL:C:/model}
+countOutputs: ${COUNT_OUTPUTS:3}
+
+dictionary: ${DICTIONARY:Кот,Пес,Птица}
